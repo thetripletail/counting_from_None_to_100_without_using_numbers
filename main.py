@@ -12,7 +12,7 @@ print(len(str(range(int(bool(None))))))  # 5
 print(len(set(str(type(tuple(str(None)))))))  # 6
 print(len(str(type(int(bool(None))))))  # 5 in 65, 66
 print(len(hex(id(None))))  # 3 in 16, 62, 88, 91
-print(len(str(id(None))))  # 3  in 63
+print(len(str(id(None))))  # 3  in 63, 75
 print(len(ascii(hex(id(None)))))  # 4   in 67, 80, 85
 print(max(range(len(str(type(None))))))  # 5    in 16, 71, 82
 print(len(str(type(None))))  # 3    in 17, 62, 75, 86, 90
@@ -72,7 +72,7 @@ print(len(str(bytes(max(range(len(str(type(None)))))))))    # 8
 print(len(ascii(str(list(hex(id(None)))))))     # 6
 print(max(range(len(dir(bool(None))))))     # 5
 print(len(dir(bool(None))))    # 3  in 73
-print(len(str(bytes(len(str(type(None)))))))    # 6
+print(len(str(list(str(id(None))))))    # 5
 print(max(range(max(range(ord(min(str(None))))))))  # 7
 print(max(range(ord(min(str(None))))))  # 5  in 76
 print(ord(min(str(None))))  # 3 in 77
