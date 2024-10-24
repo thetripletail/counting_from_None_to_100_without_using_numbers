@@ -83,7 +83,7 @@ print(len(str(bytearray(max(range(len(str(type(None)))))))))    # 8
 print(len(str(bytes(len(str(list(str(None))))))))   # 7
 print(ord(min(str(bool(str(None))))))   # 5
 print(len(ascii(str(bytes(len(ascii(hex(id(None)))))))))    # 8
-print(len(str(bytearray(len(str(type(None)))))))
+print(len(str(bytearray(len(str(type(None)))))))  # 6
 print(len(str(bytes(sum(range(len(ascii(str(bool(None))))))))))     # 9
 print(len(str(list(zip(range(len(hex(id(None)))))))))  # 8
 print(max(range(len(str(list(str(type(None))))))))  # 7
