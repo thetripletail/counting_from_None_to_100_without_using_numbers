@@ -75,7 +75,7 @@ print(len(dir(bool(None))))    # 3  in 73
 print(len(str(bytes(len(str(type(None)))))))    # 6
 print(max(range(max(range(ord(min(str(None))))))))  # 7
 print(max(range(ord(min(str(None))))))  # 5  in 76
-print(ord(min(str(None))))  # 3 in 8, 77
+print(ord(min(str(None))))  # 3 in 77
 print(max(range(max(range(len(dir(str(None))))))))  # 7
 print(max(range(len(dir(str(None))))))  # 5 in 79
 print(len(dir(str(None))))  # 3 in 80
